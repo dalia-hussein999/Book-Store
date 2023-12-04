@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 600px;
+  background-image: url(img/elenaleonova-books.jpg);
+  
+  background-size: cover;
+}
+.container h1{
+  color: #e1eedd;
+  text-shadow: 0 0 5px black;
+  margin-top: 125px;
+  font-size: 50px;
+}
+.navbar,
+footer {
+  width: 100%;
+
+  background-color: #e1eedd;
+}
+.navbar .navbar_container {
+  width: 1024px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.logo {
+  text-transform: uppercase;
+  font-size: 18px;
+  width: 50%;
+  color: #f6c453;
+}
+.navlist {
+  width: 50%;
+  list-style: none;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+.navelist li {
+  display: inline-block;
+  font-weight: bold;
+}
+.navlist li:hover {
+  color: #f6c453;
+  cursor: pointer;
+}
+.counter {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #f6c453;
+  text-align: center;
+  line-height: 20px;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+.search {
+  text-align: center;
+  padding: 50px;
+}
+.search input {
+  width: 400px;
+  height: 28px;
+  padding-left: 5px;
+}
+.search button {
+  height: 28px;
+  width: 60px;
+  background-color: #e1eedd;
+  border: none;
+  border-radius: 3px;
+}
+.bookcontainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+.book {
+  width: 30%;
+  padding: 5px;
+  box-shadow: 0 0 5px rgb(180, 179, 179);
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.bookcontainer .book img {
+  height: 300px;
+  width: 50%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.bookcontainer .book h2 {
+  color: #f9c13f;
+  padding-bottom: 10px;
+  height: 58px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.book p {
+  margin-top: 20px;
+}
+.book button {
+  margin: 10px 0;
+  width: 80%;
+  height: 30px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(1, 42, 29);
+  color: azure;
+}
+.book button:hover{
+  background-color: #f9c13f;
+}
+#bookDetailsContainer {
+  width: 1024px;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-around;
+}
+#bookDetailsContainer img {
+  
+  width: 200px;
+  height: 300px;
+}
+.imgContainer{
+  padding: 20px;
+}
+.infoContainer{
+  padding: 20px;
+}
+#bookDetailsContainer h2 {
+  color: #f9c13f;
+  margin-bottom: 20px;
+}
+
+footer .box-container {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+  padding: 30px;
+  margin-top: 20px;
+  justify-content: space-between;
+  /* background-color: #e1eedd; */
+}
+
+footer .box-container .box h3 {
+  color: rgb(1, 42, 29);
+  font-size: 18px;
+  padding: 5px 0;
+  text-transform: capitalize;
+}
+
+footer .box-container .box a {
+  display: block;
+  color: #0a0a0a;
+  text-decoration: none;
+  padding: 3px 0;
+  text-transform: capitalize;
+}
